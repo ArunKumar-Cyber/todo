@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      ul {
+        margin: 0;
+      }
+      #text1 {
+        width: 300px;
+        border-radius: 5px;
+        padding: 2px;
+      }
+      .btn {
+        /* margin-top: 10px; */
+        margin-left: -10px;
+        margin-bottom: 5px;
+      }
+      ul h2 {
+        padding: 15px;
+        margin-left: -16px;
+      }
+      #read1 {
+        margin-left: 52px;
+      }
+      .delete1 {
+        margin-left: 90px;
+        margin-top: -25px;
+        border-radius: 15px;
+      }
+      #write1 {
+        margin-left: 52px;
+      }
+      .delete2 {
+        margin-left: 93px;
+        margin-top: -25px;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <ul>
+        <h1>Add your To Do List here</h1>
+        <br />
+        <input type="text" id="text1" placeholder="|" />
+
+        <div class="btn">
+          <button type="button" class="btn-secondary">Add</button>
+        </div>
+
+        <h2>To Do List</h2>
+
+        <li id="read1">read</li>
+        <div class="delete1">
+          <button type="buton" class="delete1-secondary">Delete</button>
+        </div>
+
+        <li id="write1">write</li>
+
+        <div class="delete2">
+          <button type="buton" class="delete2-secondary">Delete</button>
+        </div>
+      </ul>
+    </form>
+  </body>
+</html>
